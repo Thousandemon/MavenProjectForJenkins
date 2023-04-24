@@ -3,7 +3,17 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello World"'
+                echo 'Building..."
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..."
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Hello World"
             }
         }
     }
