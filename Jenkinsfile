@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Building...'
+                echo 'This is from the MavenProjectForJenkins git repo'
             }
         }
         stage('Test') {
